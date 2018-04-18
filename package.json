@@ -1,0 +1,26 @@
+{
+  "name": "starter-bulma",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world && brunch build -p",
+    "watch": "bsb -make-world -w & brunch watch --server -P 3000"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "brunch": "^2.10.12",
+    "bs-platform": "^2.2.2",
+    "clean-css-brunch": "^2.10.0",
+    "sass-brunch": "^2.10.4",
+    "uglify-js-brunch": "^2.10.0"
+  },
+  "dependencies": {
+    "bulma": "^0.6.2",
+    "jquery": "^3.3.1"
+  }
+}
